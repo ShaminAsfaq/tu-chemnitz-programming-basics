@@ -5,13 +5,13 @@ import org.springframework.stereotype.Service;
 import java.util.Arrays;
 
 @Service
-public class BasicService {
+public class LectureOne {
     Boolean[] centralPrimeFlags;
 
     /**
      * This is the constructor
      */
-    public BasicService() {
+    public LectureOne() {
         this.centralPrimeFlags = makePrime();
     }
 
