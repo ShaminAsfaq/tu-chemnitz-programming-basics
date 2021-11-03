@@ -1,5 +1,6 @@
 package de.chemnitztu.tuchemnitzprogrammingbasics.utils;
 
+import de.chemnitztu.tuchemnitzprogrammingbasics.utils.lectures.LectureTwo;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
