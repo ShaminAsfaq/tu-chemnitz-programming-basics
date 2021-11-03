@@ -1,4 +1,4 @@
-package de.chemnitztu.tuchemnitzprogrammingbasics.utils;
+package de.chemnitztu.tuchemnitzprogrammingbasics.utils.lectures;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
