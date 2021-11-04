@@ -18,6 +18,13 @@ class ExerciseOneTest {
     @DisplayName("Square Root Generator")
     public void testSquareRoot() {
         assertAll(
+                () -> assertEquals(1, exerciseOne.squareRoot(1)),
+                () -> assertEquals(1.4142135, exerciseOne.squareRoot(2)),
+                () -> assertEquals(1.7320508, exerciseOne.squareRoot(3)),
+                () -> assertEquals(2, exerciseOne.squareRoot(4)),
+                () -> assertEquals(2.2360679, exerciseOne.squareRoot(5)),
+                () -> assertEquals(3, exerciseOne.squareRoot(9)),
+                () -> assertEquals(4, exerciseOne.squareRoot(16)),
                 () -> assertEquals(6.3245553, exerciseOne.squareRoot(40)),
                 () -> assertEquals(6.4031242, exerciseOne.squareRoot(41)),
                 () -> assertEquals(6.4807406, exerciseOne.squareRoot(42)),
